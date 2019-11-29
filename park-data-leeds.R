@@ -17,6 +17,21 @@ piggyback::pb_upload("parks-west-yorkshire.geojson")
 
 region_data = read_pbf()
 
+library(bench)
+
+rds = function() readRDS("parks-west-yorkshire.Rds")
+sfr = function() sf::read_sf("parks-west-yorkshire.geojson")
+gsf = function() geojsonsf::geojson_sf("parks-west-yorkshire.geojson")
+
+
+res = bench::mark(check = F,
+            rds(),
+            sfr(),
+            gsf()
+            )
+
+plot(res)
+
 # attempt with osmdata (failed) -------------------------------------------
 
 library(osmdata)
