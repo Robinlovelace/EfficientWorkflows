@@ -186,6 +186,46 @@ class: inverse, center, middle
 # Efficient workflow
 
 ---
+
+# Benchmarking your code
+
+```{r}
+library(bench)
+
+rds = function() readRDS("parks-west-yorkshire.Rds")
+sfr = function() sf::read_sf("parks-west-yorkshire.geojson")
+gsf = function() geojsonsf::geojson_sf("parks-west-yorkshire.geojson")
+
+
+res = bench::mark(check = F,
+            rds(),
+            sfr(),
+            gsf()
+            )
+
+res[1:3]
+```
+
+---
+
+# Benchmark results
+
+.pull-left[
+
+```{r, message=FALSE}
+plot(res)
+```
+]
+
+.pull-right[
+
+```{r}
+mapview::mapview(gsf())
+```
+
+]
+
+---
 class: inverse, center, middle
 
 # Efficient collaboration
