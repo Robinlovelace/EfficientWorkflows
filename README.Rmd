@@ -1,0 +1,230 @@
+---
+title: "Efficient WoRkflows"
+subtitle: "`r emojifont::emoji('rocket')`<br/>getting more done with R"
+author: "Robin Lovelace"
+institute: "University of Leeds"
+date: "2019-12-05 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: [default, robot, robot-fonts]
+    lib_dir: libs
+    nature: 
+      beforeInit: "https://platform.twitter.com/widgets.js"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+
+background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gh-self-help-books-1551713371.png)
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+--
+
+## Source [goodhousekeeping.com](https://www.goodhousekeeping.com/life/entertainment/g26588504/best-self-help-books/)
+
+--
+
+The Best Self-Help Books to Read in 2019, According to Amazon and Goodreads
+
+
+???
+
+There are loads of self help books out there
+
+---
+
+background-image: url(https://images-na.ssl-images-amazon.com/images/I/41R3etYqvBL._SX326_BO1,204,203,200_.jpg)
+
+???
+
+Originally published in 2001, it has gained huge popularity
+
+---
+
+background-image: url(https://images-na.ssl-images-amazon.com/images/I/51inoqTDRML._SX379_BO1,204,203,200_.jpg)
+
+???
+
+2008 book by Scott Burkun aimed at software architects
+
+Too techy for me, about managing 100s of people!
+
+---
+
+background-image: url(https://images-na.ssl-images-amazon.com/images/I/414PFUnar-L._SX324_BO1,204,203,200_.jpg)
+
+???
+
+2015 book by Daniel Levitin
+
+Too techy for me, about managing 100s of people!
+
+---
+
+.pull-left[
+
+```{r, echo=FALSE}
+knitr::include_graphics("https://csgillespie.github.io/efficientR/figures/f0_web.png")
+```
+
+]
+
+--
+
+.pull-right[
+
+## Open source book
+
+### Published early 2016
+
+### All the things I wish I knew
+
+### Handy chapters:
+
+#### Efficient set-up
+
+#### Efficient workflow
+
+#### Efficient collaboration
+
+]
+
+---
+
+## From code to impact
+
+```{r, echo=FALSE, out.width="90%"}
+knitr::include_graphics("https://raw.githubusercontent.com/npct/pct-team/master/figures/front-page-leeds-pct-demo.png")
+```
+
+--
+
+Source - https://github.com/npct which hosts national web tool PCT [www.pct.bike](http://www.pct.bike/)
+
+
+<!-- background-imag: url(https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1507165449l/36355673._SX318_.jp) -->
+
+???
+
+2017 book by Mark Reed
+
+---
+
+# Types of efficiency
+
+--
+
+.pull-left[
+
+## Programmer efficiency
+
+This is the amount of useful work a person (not a computer) can do per unit time
+
+]
+
+--
+
+.pull-right[
+
+## Computational efficiency
+
+How quickly the computer can undertake a piece of work
+
+]
+
+--
+
+One essential object is to choose that arrangement which shall tend to reduce to a minimum the time necessary for completing the calculation. (Ada Lovelace, [1842](https://csgillespie.github.io/efficientR/introduction.html#ref-lovelace1842translator))
+
+--
+
+An efficient light shines bright with a minimum of energy consumption. In this final sense, efficiency has a formal definition as the ratio of work done per unit effort:
+
+$$
+\eta = \frac{W}{Q}
+$$
+
+---
+class: inverse, center, middle
+
+# Efficient set-up
+
+---
+
+## R and package versions
+
+.pull-left[
+
+```{r}
+R.version
+packageVersion("dplyr")
+```
+
+]
+
+--
+
+.pull-left[
+
+
+### Who cares?
+
+![](devtools-issue.png)
+
+Source: https://github.com/r-lib/devtools/issues/2153
+
+]
+---
+
+
+class: inverse, center, middle
+
+# Efficient workflow
+
+---
+class: inverse, center, middle
+
+# Efficient collaboration
+
+---
+
+
+---
+
+# Community
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Probably the most productivity-improving thing you do can for a data science team is to create and maintain a strong, inclusive community of practice. If people on your team aren’t constantly learning from each other, you’re leaving a ton of value on the table.</p>&mdash; Sean J. Taylor (@seanjtaylor) <a href="https://twitter.com/seanjtaylor/status/1197964523237335040?ref_src=twsrc%5Etfw">November 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+### Community tips ([Geocomputation with R](https://github.com/Robinlovelace/geocompr/community))
+
+![](community-guidelines-github.png)
+---
+
+# Magic Touch: typing
+
+![](https://csgillespie.github.io/efficientR/figures/f1_1_800px-QWERTY-home-keys-position.png)
+
+
+--
+
+Source - Efficient R Programming [1.5.1](https://csgillespie.github.io/efficientR/introduction.html#touch-typing) 
+
+???
+
+The evidence suggests that good diet, physical activity, plenty of sleep and a healthy work-life balance can all boost your speed and effectiveness at work (Jensen 2011; Pereira et al. 2015; Grant, Wallace, and Spurgeon 2013).
+
+While we recommend the reader to reflect on this evidence and their own well-being, this is not a self help book. It is about programming. However, there is one non-programming skill that can have a huge impact on productivity: touch typing. 
+
+---
+
+class: center, middle
+
+# Thanks!
+
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+
+The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
