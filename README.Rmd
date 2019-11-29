@@ -15,8 +15,18 @@ output:
       countIncrementalSlides: false
 ---
 
-
 background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gh-self-help-books-1551713371.png)
+
+--
+
+```{r, eval=FALSE}
+# to reproduce these slides do:
+pkgs = c("rgdal", "sf", "geojsonsf")
+install.packages(pkgs)
+```
+
+--
+
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
