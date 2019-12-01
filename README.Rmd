@@ -322,6 +322,7 @@ In addition to uneatable statistical capabilities
 
 Source: https://xkcd.com/1205/
 
+
 ---
 
 class: inverse, center, middle
@@ -370,6 +371,24 @@ class: center, middle
 
 # Thanks!
 
+Contact me at r. lovelace at leeds ac dot uk (email), `@robinlovelace` (twitter + github)
+
+--
+
+Check-out my repos at https://github.com/robinlovelace/
+
+--
+
+For more information on efficient workflows, see our book [*Efficient R Programming*](https://csgillespie.github.io/efficientR/)
+
+--
+
+Thanks to all the R developers who made this possible, including (for this presentation):
+
+[remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
+
 Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
 
-The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
+--
+
+Thanks to everyone for building a open and collaborative communities!
