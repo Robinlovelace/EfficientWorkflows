@@ -206,7 +206,7 @@ class: inverse, center, middle
 <!-- background-imag: url(https://i.pinimg.com/originals/d3/57/8f/d3578fe5d173fa348f8463f7f47b949a.png) -->
 
 
-# Package selection
+## Package selection
 
 .pull-left[
 
@@ -236,7 +236,7 @@ See Efficient R Programming [4.4](https://csgillespie.github.io/efficientR/workf
 
 ---
 
-# Benchmarking your code
+## Benchmarking your code
 
 ```{r, message=FALSE}
 # 3 ways to read in files representing parks in Leeds
@@ -267,7 +267,7 @@ For reproducible code, see https://github.com/Robinlovelace/EfficientWorkflows
 
 ---
 
-# Benchmark + check results
+## Benchmark + check results
 
 ```{r, message=FALSE, fig.width=9, fig.height=5, out.width="100%"}
 plot(res)
@@ -275,12 +275,52 @@ plot(res)
 
 ---
 
-# Always check your results
+## Always check your results
 
 ```{r}
 # see https://geocompr.robinlovelace.net/adv-map.html to learn  how to make more maps
 mapview::mapview(gsf()) # the parks of West Yorkshire
 ```
+
+---
+
+## Other things R can do
+
+.pull-left[
+
+In addition to uneatable statistical capabilities
+
+### R is also good at...
+
+- Report/book/presentation making
+
+- Image manipulation with the magick package - see [ropensci/magick](https://github.com/ropensci/magick)
+
+- Map making - see [geocompr.robinlovelace.net/](https://geocompr.robinlovelace.net/)
+
+- Emailing (!) - see [rich-iannone/blastula](https://github.com/rich-iannone/blastula) 
+
+
+(again it can go too far)
+]
+
+--
+
+.pull-right[
+
+### Example: [citr](https://github.com/crsh/citr)
+
+![](https://raw.githubusercontent.com/crsh/citr/master/tools/images/addin_demo.gif)
+
+]
+
+---
+
+## Going too far
+
+![](https://imgs.xkcd.com/comics/is_it_worth_the_time.png)
+
+Source: https://xkcd.com/1205/
 
 ---
 
