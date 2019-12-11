@@ -322,6 +322,15 @@ In addition to uneatable statistical capabilities
 
 Source: https://xkcd.com/1205/
 
+---
+
+# Reproducibility
+
+- Not just vital for science, can save time, by reducing the time you spend 'reinventing the wheel'
+
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Looking forward to presenting a Director&#39;s Cut version of my &quot;Putting the R into Reproducible Research&quot; at <a href="https://twitter.com/ImperialMed?ref_src=twsrc%5Etfw">@ImperialMed</a>. <br><br>Now includes capturing computation environments with <a href="https://twitter.com/Docker?ref_src=twsrc%5Etfw">@Docker</a>, <a href="https://twitter.com/travisci?ref_src=twsrc%5Etfw">@travisci</a> and <a href="https://twitter.com/mybinderteam?ref_src=twsrc%5Etfw">@mybinderteam</a> using <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> 📦 rrtools and holepunch! <a href="https://t.co/3qgLp37yAl">https://t.co/3qgLp37yAl</a> <a href="https://t.co/sN5McD0cQH">pic.twitter.com/sN5McD0cQH</a></p>&mdash; annakrystalli (@annakrystalli) <a href="https://twitter.com/annakrystalli/status/1193837213957722112?ref_src=twsrc%5Etfw">November 11, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
 
 ---
 
@@ -344,6 +353,8 @@ But it's all about people
 # Community
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Probably the most productivity-improving thing you do can for a data science team is to create and maintain a strong, inclusive community of practice. If people on your team aren’t constantly learning from each other, you’re leaving a ton of value on the table.</p>&mdash; Sean J. Taylor (@seanjtaylor) <a href="https://twitter.com/seanjtaylor/status/1197964523237335040?ref_src=twsrc%5Etfw">November 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+---
 
 ### Community tips ([Geocomputation with R](https://github.com/Robinlovelace/geocompr/community))
 
